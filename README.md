@@ -17,12 +17,14 @@ Yochai Gal and Oozejar allowed me to publish this collection. Thank you both.
 
 You need Obsidian with [Atlas VTT](https://github.com/ByteMirror/atlas-vtt) 0.5.0 or newer and [Fantasy Statblocks](https://github.com/javalent/fantasy-statblocks).
 
-1. Download [`Cairn v1.atlas-collection.zip`](Cairn%20v1.atlas-collection.zip). Do not unpack it.
+1. Download [`Cairn v2.atlas-collection.zip`](Cairn%20v2.atlas-collection.zip). Do not unpack it.
 2. In Obsidian, run the command **Open scene browser**. In the sidebar, click **Import collection** and choose the file. Check the list and click **Import**.
 3. Download [`Cairn.layout.json`](fantasy-statblocks/Cairn.layout.json). In the settings of Fantasy Statblocks, import it under **Layouts**, and switch on **Automatically Parse Frontmatter for Creatures**. Without these two the statblocks show empty.
-4. Open the scene **Blue Mouth Caves**. Press <kbd>Space</kbd> on the map, go to **Experimental features** and switch on **Dynamic lighting**. The walls and doors only stop light and sight while it is on.
+4. Open the scene **Blue Mouth Caves** and put the tokens of your party on the map.
 
-The adventure is the scene's DM note, and every numbered pin opens the room with that number. The caves are dark. The two party tokens on the map have vision, and one of them carries a torch.
+The adventure is the scene's DM note, and every numbered pin opens the room with that number.
+
+The scene comes without lighting. To play the caves in the dark, press <kbd>Space</kbd> on the map, go to **Experimental features** and switch on **Dynamic lighting**. Then switch on **Dynamic lighting** for the scene in the **Lighting options** of the toolbar, and give the tokens of the party vision and a torch. The walls and doors are already in the scene.
 
 ## The adventure and this map
 
