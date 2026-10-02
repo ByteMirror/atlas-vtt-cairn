@@ -1,6 +1,12 @@
+![Cairn, a collection for Atlas VTT. Left: the creature tokens in the asset manager. Right: a lit cave with the statblock of a Blood Olm.](assets/cairn-for-atlas-vtt.jpg)
+
 # Cairn for Atlas VTT
 
 [Cairn](https://cairnrpg.com) by Yochai Gal as a collection for [Atlas VTT](https://github.com/ByteMirror/atlas-vtt), the virtual tabletop plugin for Obsidian. Import one file and you have the creatures, the rules, the items and a starting adventure that is set up to play.
+
+<p align="center">
+  <a href="https://github.com/ByteMirror/atlas-vtt-cairn/raw/main/Cairn%20v2.atlas-collection.zip"><img src="assets/download-button.png" width="440" alt="Download the collection"></a>
+</p>
 
 Yochai Gal and Oozejar allowed me to publish this collection. Thank you both.
 
@@ -17,7 +23,7 @@ Yochai Gal and Oozejar allowed me to publish this collection. Thank you both.
 
 You need Obsidian with [Atlas VTT](https://github.com/ByteMirror/atlas-vtt) 0.5.0 or newer and [Fantasy Statblocks](https://github.com/javalent/fantasy-statblocks).
 
-1. Download [`Cairn v2.atlas-collection.zip`](Cairn%20v2.atlas-collection.zip). Do not unpack it.
+1. Click the download button at the top of this page. You get the file `Cairn v2.atlas-collection.zip`. Do not unpack it.
 2. In Obsidian, run the command **Open scene browser**. In the sidebar, click **Import collection** and choose the file. Check the list and click **Import**.
 3. Download [`Cairn.layout.json`](fantasy-statblocks/Cairn.layout.json). In the settings of Fantasy Statblocks, import it under **Layouts**, and switch on **Automatically Parse Frontmatter for Creatures**. Without these two the statblocks show empty.
 4. Open the scene **Blue Mouth Caves** and put the tokens of your party on the map.
