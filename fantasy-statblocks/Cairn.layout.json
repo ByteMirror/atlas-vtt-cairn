@@ -1,0 +1,24 @@
+{
+  "name": "Cairn",
+  "id": "cairn-bestiary-layout",
+  "blocks": [
+    { "type": "image", "id": "cairn-image", "properties": ["image"], "conditioned": true },
+    { "type": "heading", "id": "cairn-title", "properties": ["title"], "fallback": "Creature", "size": 1, "conditioned": false },
+    { "type": "subheading", "id": "cairn-type", "properties": ["type"], "conditioned": true, "hasRule": true },
+    {
+      "type": "group",
+      "id": "cairn-vitals",
+      "properties": [],
+      "hasRule": true,
+      "nested": [
+        { "type": "property", "id": "cairn-hp", "properties": ["hp"], "display": "HP", "conditioned": true },
+        { "type": "property", "id": "cairn-armor", "properties": ["armor"], "display": "Armor", "conditioned": true }
+      ]
+    },
+    { "type": "table", "id": "cairn-abilities-row", "properties": ["stats"], "headers": ["STR", "DEX", "WIL"], "calculate": false, "conditioned": true, "hasRule": true },
+    { "type": "property", "id": "cairn-attacks", "properties": ["attacks"], "display": "Attacks", "markdown": true, "conditioned": true, "hasRule": true },
+    { "type": "text", "id": "cairn-description", "properties": ["description"], "text": null, "markdown": true, "conditioned": true },
+    { "type": "traits", "id": "cairn-special", "properties": ["abilities"], "markdown": true, "conditioned": true },
+    { "type": "property", "id": "cairn-critical", "properties": ["critical_damage"], "display": "Critical Damage", "markdown": true, "conditioned": true }
+  ]
+}
